@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokémon Ranger 3D - KaruzoHikari</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/7b9c9caa6e.js" crossorigin="anonymous"></script>
+	<script src="js/photoswipe/photoswipe.min.js"></script>
+	<script src="js/photoswipe/photoswipe-ui-default.min.js"></script>
+	<script src="js/photoswipe/photoswipe-gallery.js" defer></script>
+	<link rel="stylesheet" href="css/generalstyle.css">
+	<link rel="stylesheet" href="css/projectstyle.css">
+	<link rel="stylesheet" href="css/photoswipe/photoswipe.css"> 
+	<link rel="stylesheet" href="css/photoswipe/default-skin.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<script src="js/matomo.js" defer></script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+	<a href="index.html">
+		<img src="images/logo.png" alt="Web's logo">
+	</a>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+	<div id="navlinks">
+		<a href="https://github.com/KaruzoHikari" target="_blank"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+		<a href="https://www.youtube.com/channel/UCCrVS_tGfIEjcKTgelrJETQ" target="_blank"><i class="fa-brands fa-youtube"></i>&nbsp;YouTube</a>
+		<a href="https://twitter.com/karuzodev" target="_blank"><i class="fa-brands fa-twitter"></i>&nbsp;Twitter</a>
+	</div>
+	<a href="mailto:karuzohikari@gmail.com"><i class="fa-solid fa-at"></i>&nbsp;Contact me!</a>
+	<a href="https://ko-fi.com/karuzohikari" target="_blank"><i class="fas fa-mug-hot ko-fi"></i>&nbsp;Buy me a coffee!</a>
+</nav>
+
+<main>
+	<header>
+		<img src="images/projectlist/ranger_3d.png">
+		<p>Pokémon Ranger 3D</p>
+	</header>
+
+	<section>
+		<header>Info</header>
+		<p>A demo game that reimagines the DS title "Pokémon Ranger" as a 3D game.<br>
+		Currently on pause. More soon&trade;</p>
+	</section>
+	
+	<section>
+		<header>Links</header>
+		<p>Not available.</p>
+	</section>
+
+	<section>
+		<header>Gallery</header>
+		<div class="projectgrid imagegallery">
+			<article>
+				<a href="images/ranger3d/ranger3d_1.png" itemprop="contentUrl" data-size="1920x1080">
+					<img src="images/ranger3d/ranger3d_1_small.png" itemprop="thumbnail" alt="Pokémon Ranger 3D Image" />
+				</a>
+			</article>
+			<article>
+				<a href="images/ranger3d/ranger3d_2.png" itemprop="contentUrl" data-size="1920x1080">
+					<img src="images/ranger3d/ranger3d_2_small.png" itemprop="thumbnail" alt="Pokémon Ranger 3D Image" />
+				</a>
+			</article>
+			<article>
+				<a href="images/ranger3d/ranger3d_3.png" itemprop="contentUrl" data-size="1920x1080">
+					<img src="images/ranger3d/ranger3d_3_small.png" itemprop="thumbnail" alt="Pokémon Ranger 3D Image" />
+				</a>
+			</article>
+			<article>
+				<a href="images/ranger3d/ranger3d_4.png" itemprop="contentUrl" data-size="1920x1080">
+					<img src="images/ranger3d/ranger3d_4_small.png" itemprop="thumbnail" alt="Pokémon Ranger 3D Image" />
+				</a>
+			</article>
+		</div>
+	</section>
+
+	<section>
+		<header>Videos</header>
+		<div class="projectgrid">
+			<div class="videocontainer">
+				<iframe src="https://www.youtube.com/embed/kzCx9DfPDcs"></iframe>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!-- Footer -->
+<footer>
+	<h4>KaruzoHikari &copy; 2025</h4>
+</footer>
+
+
+<!-- **************************** -->
+<!-- HERE STARTS THE GALLERY HTML -->
+<!-- **************************** -->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
